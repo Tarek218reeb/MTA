@@ -1,0 +1,157 @@
+body {
+    background-color: #437F9E;
+    font-family: Big John;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #154566;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+div nav {
+    background-color: #65E5AE;
+    font-family: DIN Next LT W23;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+div nav a {
+    color: #fdfbfb;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+div nav a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+article {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+    padding: 2rem;
+    width: 30rem;
+}
+article h2 {
+    font-size: 1.5rem;
+    font-family: DIN Next LT W23;
+    margin: 0 0 1rem;
+}
+article p {
+    margin: 0 0 1.5rem;
+    font-family: DIN Next LT W23;
+}
+article a {
+    background-color: #65E5AE;
+    border-radius: 0.5rem;
+    font-family: DIN Next LT W23;
+    color: #ffffff;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+article a:hover {
+    background-color: #000000;
+    transition: background-color 0.3s ease-in-out;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #154566;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+footer p {
+    margin:0;
+    display: inline-block;
+    font-family: DIN Next LT W23;
+    position: relative;
+    right: -20px;
+}
+footer a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+nav {
+    
+    font-family: DIN Next LT W23;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+nav a {
+    color: #fdfbfb;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    display: flex;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+}
+nav ul{
+    display: flex;
+}
+.video-container {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    align: center;
+    border-radius: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+.video-container h3{
+    font-family: DIN Next LT W23;
+    color: #fff;
+    position: relative;
+    left: 100%;
+    top: 100%;
+    transform: translate(-60%, -130%);
+}
+video {
+    width: 100%;
+    height: 100%;
+    align: center;
+    position: absolute;
+
+    
+    
+}
